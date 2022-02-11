@@ -5,9 +5,7 @@ TheGraph exposes a GraphQL endpoint to query the events and entities within the 
 Currently, there are multiple subgraphs, but additional subgraphs can be added to this repository, following the current architecture.
 
 ## Subgraphs
-1. **NFT Market (v1): Tracks all Infinity XYZ NFT Market for ERC-721.**
-
-2. **Trading Competition (v1): Tracks all metrics for the Easter Battle (April 02—08, 2022).**
+1. **NFT Market (v1): Tracks all NFT Collection sale info for ERC-721 and ERC-1155.**
 
 ## Dependencies
 
@@ -32,5 +30,5 @@ For any of the subgraph: `blocks` as `[subgraph]`
 
 5. Deploy via `yarn deploy`.
 
-v1
-To access subgraphs related to Infinity XYZ v1 ecosystem (article), use v1 branch.
+## v1
+To access subgraphs related to Infinity XYZ v1 ecosystem.
